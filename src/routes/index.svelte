@@ -1,32 +1,33 @@
 <script lang="ts">
   import "../app.css";
+  import Courses from "$lib/Courses.svelte";
 </script>
 
-<!-- <div class="banner">
-	<h1 class="banner-head">
-			Placeholder
-			<br>
-			Text
-			Text
-			<br>
-	</h1>
-</div> -->
-
 <div class="content">
-  <img src="image.png" alt="" />
+    <img class="img" src="image.png" alt="">
+</div>
+
+  <!-- <img class="image" src="image.png" alt="" /> -->
   <!-- <h1 class="header">Placeholder</h1> -->
 
   <div class="contact">
     <a href="tel:+1732 209 0105">Contato: (732) 209 0105</a>
   </div>
-</div>
+
+<Courses></Courses>
+
+<footer>
+  <svg viewBox="0 -20 700 110" width="100%" height="110" preserveAspectRatio="none">
+    <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="#CEB964" />
+    <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#1f3d24" />
+  </svg>
+</footer>
 
 <style>
   .contact {
+    text-align: center;
     width: 180px;
-    position: fixed;
-    top: 80%;
-    right: 5%;
+    width: 100%;
     border: 1px solid;
     padding: 8px;
     background: var(--green);
@@ -40,6 +41,7 @@
     animation-fill-mode: both;
     border: none;
     -webkit-animation-fill-mode: both;
+    cursor: pointer;
   }
 
   .contact:hover{
@@ -81,20 +83,15 @@
     align-items: center;
   }
 
-  img {
+  .img {
     display: block;
     height: 100%;
   }
 
 
   @media only screen and (max-width: 800px) {
-    img {
+    .img {
       width: 100%;
-    }
-
-    .contact{
-      top: 44%;
-      right: 5%;
     }
   }
 
