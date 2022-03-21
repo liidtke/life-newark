@@ -10,9 +10,20 @@
   <!-- <img class="image" src="image.png" alt="" /> -->
   <!-- <h1 class="header">Placeholder</h1> -->
 
+  <div class="row">
   <div class="contact">
     <a href="tel:+1732 209 0105">Contato: (732) 209 0105</a>
   </div>
+  
+      <div class="p-notification--information">
+        <div class="p-notification__content">
+          <h5 class="p-notification__title">Endereço</h5>
+          <p class="p-notification__message">334 New York Ave, Newark, NJ</p>
+        </div>
+      </div>
+
+    </div>
+
 
 <Courses></Courses>
 
@@ -25,6 +36,7 @@
 
 <style>
   .contact {
+    margin-top: 2rem;
     text-align: center;
     width: 180px;
     width: 100%;
@@ -36,8 +48,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    animation-duration: 2s;
-    animation-delay: 1s;
+    animation-duration: 1s;
     animation-fill-mode: both;
     border: none;
     -webkit-animation-fill-mode: both;
