@@ -4,7 +4,7 @@
 </script>
 
 <div class="content">
-    <img class="img" src="image.png" alt="">
+    <img class="img" src="image2.jpg" alt="">
 </div>
 
   <!-- <img class="image" src="image.png" alt="" /> -->

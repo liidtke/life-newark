@@ -32,6 +32,16 @@
       contact: "(908) 342-3972",
     },
     {
+      name: "Canto",
+      prof: "Marla Lüdtke",
+      period: "Semestral",
+      age: "Jovens e adultos",
+      day: "Quarta às 6 pm",
+      value: "$10",
+      lang: "Português",
+      contact: "(732) 209-0544",
+    },
+    {
       name: "Musicalização Infantil",
       prof: "Marla Lüdtke",
       period: "Semestral",
